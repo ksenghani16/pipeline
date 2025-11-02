@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('start'){
       steps{
-        echo "Hello ${params.USERNAME}
+        echo "Hello ${params.USERNAME};
       }
     }
   }
